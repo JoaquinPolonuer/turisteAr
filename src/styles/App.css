@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.nav {
+  background-color: #0a9ef1;
+  color: white;
+}
+.navbar-brand {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.logo {
+  height: 60px;
+}
+
+.contentRow {
+}
+
+.schoolBtn {
+  height: 40vh;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  background: white;
+  border: 1px solid #b9bbbd;
+  border-radius: 60px;
+  padding-top: 6vh;
+  padding-bottom: 10vh;
+  margin-top: 5vh;
+  cursor: pointer;
+}
+.schoolBtn:hover {
+  background: #ecf0f3;
+}
+.schoolBtn:active {
+  background: #b9bbbd;
+}
+.btnText {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  /* identical to box height */
+  margin-top: 2vh;
+  text-align: center;
+}
+
+.schoolImg {
+  margin-top: 4vh;
+  height: 13vh;
+}
+.titulo {
+  vertical-align: bottom;
+  padding-left: 2vh;
+  padding-bottom: 1vh;
+  font-size: 5vh;
+}
+.content {
+  border-radius: 4vh;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  box-shadow: 0px 0px 10px gray;
+  align-items: center;
+  height: 30vh;
+  margin: 1vh;
+  color: white;
+}
+
+.content:hover {
+  transform: scale(1.1);
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+.main {
+  padding: 2vh;
+  padding-left: 2vh;
+  padding-right: 4vh;
+}
+.homeContent {
+  padding-top: 5vh;
+  padding-bottom: 1vh;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.examImg {
+  margin-top: 4vh;
+  height: 45vh;
+  width: 57vw;
+}
