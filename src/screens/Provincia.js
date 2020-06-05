@@ -17,7 +17,7 @@ class Provincia extends Component {
         <Navbar dark className="nav">
           <h1 className="display">TuristeAr</h1>
         </Navbar>
-        <h1 className="white titulo">Testing</h1>
+        <h1 className="white titulo">Ahora queda seguirlo juntos ;) </h1>
       </div>
     );
   }
