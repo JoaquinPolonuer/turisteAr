@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import caba from "../resources/caba.jpg";
 import "../styles/App.css";
 import { Navbar, Row, Col, Button, NavbarBrand, Container } from "reactstrap";
+import history from "../services/history";
 
 class Home extends Component {
   constructor(props) {
@@ -24,7 +25,9 @@ class Home extends Component {
                 lg={{ size: 3 }}
                 className="cont"
                 onClick={() => {
-                  window.location.href = "provincia";
+                  history.push({
+                    pathname: "/provincia",
+                  });
                 }}
               >
                 <Col
