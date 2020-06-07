@@ -83,7 +83,7 @@
   padding-bottom: 1vh;
   font-size: 5vh;
 }
-.content {
+.cardcontent {
   border-radius: 4vh;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -95,10 +95,31 @@
   color: white;
 }
 
-.content:hover {
+.cardcontent:hover {
   transform: scale(1.1);
   margin-left: 1vh;
   margin-right: 1vh;
+}
+.provinciatext {
+  padding-top: 1vh;
+  margin-bottom: 3vh;
+  height: 25vh;
+  overflow: scroll;
+  -ms-overflow-style: none;
+}
+.provinciatext::-webkit-scrollbar {
+  display: none;
+}
+
+.content {
+  background-color: white;
+  border-radius: 10vh;
+  box-shadow: 0px 0px 50px #ccd5e6;
+  justify-items: center;
+  align-items: center;
+}
+.homeContent {
+  margin-top: 5vh;
 }
 .main {
   padding: 2vh;
